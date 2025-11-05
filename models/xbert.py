@@ -29,7 +29,7 @@ from torch.nn import CrossEntropyLoss, MSELoss
 import torch.nn.functional as F
 
 from transformers.activations import ACT2FN
-from transformers.file_utils import (
+from transformers.utils import (
     ModelOutput,
     add_code_sample_docstrings,
     add_start_docstrings,
