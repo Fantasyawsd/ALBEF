@@ -20,7 +20,7 @@ import os
 import unicodedata
 from typing import List, Optional, Tuple
 
-from transformers.tokenization_utils_base import PreTrainedTokenizer
+from transformers import PreTrainedTokenizer
 from transformers.utils import logging
 
 
