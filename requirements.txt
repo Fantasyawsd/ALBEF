@@ -1,0 +1,17 @@
+# Core dependencies for ALBEF with updated versions
+torch==2.6.0
+torchvision==0.21.0
+transformers==4.50.0
+timm==1.0.12
+
+# Data processing
+pillow>=8.0.0
+opencv-python>=4.5.0
+pycocotools>=2.0.0
+
+# Configuration and utilities
+ruamel.yaml>=0.17.0
+numpy>=1.21.0
+
+# Distributed training
+accelerate>=0.20.0
